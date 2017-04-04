@@ -2,8 +2,8 @@ applications:
 - services:
   - ElephantSQL-3n
   disk_quota: 1024M
-  host: itucsdb1620
-  name: itucsdb1620
+  host: asd
+  name: asd
   path: .
   domain: mybluemix.net
   instances: 1
