@@ -22,7 +22,7 @@ def do_work():
 
     restaurant_list = []
     user_emails = []
-    period = 3
+    period = 30
 
     class restaurant:
         def __init__(self, name, score, on_foot, weather_sensitivity):
