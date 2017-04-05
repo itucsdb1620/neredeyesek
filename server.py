@@ -2,6 +2,7 @@ from settings import *
 from usersops import *
 from restaurant import *
 from user import *
+from main import *
 from flask.helpers import url_for
 from time import sleep
 from flask.globals import session
@@ -13,7 +14,7 @@ def home_page():
 @app.route('/main',  methods=['GET','POST'])
 def main_page():
     do_work()
-    return redirect(url_for('home_page'))
+    return redirect(url_for('user_page'))
 @app.route('/login',  methods=['POST'])
 def login_page():
     username = request.form['username']
