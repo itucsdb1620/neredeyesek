@@ -1,5 +1,4 @@
 from settings import *
-from main import *
 from flask.helpers import url_for
 from flask.globals import session
 from os import name

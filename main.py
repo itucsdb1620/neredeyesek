@@ -1,8 +1,8 @@
 from settings import *
-import feedparser
+from feedparser import *
 import smtplib
 import time
-from docutils.parsers import null
+from null import *
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
