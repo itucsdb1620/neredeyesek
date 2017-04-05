@@ -10,6 +10,10 @@ from flask.globals import session
 def home_page():
     return render_template('home.html')
 
+@app.route('/main',  methods=['GET','POST'])
+def main_page():
+    do_work()
+    return redirect(url_for('home_page'))
 @app.route('/login',  methods=['POST'])
 def login_page():
     username = request.form['username']
