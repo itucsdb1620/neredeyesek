@@ -6,7 +6,7 @@ from docutils.parsers import null
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-def do_work()
+def do_work():
     VCAP_APP_PORT = os.getenv('VCAP_APP_PORT')
     if VCAP_APP_PORT is not None:
         port, debug = int(VCAP_APP_PORT), False
